@@ -13,6 +13,11 @@ body {
   align-items: center;
   padding: 1em;
   height: 60px; /* Adjust for your header height */
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 2000;
+  background: black;
 }
 .navbar-left .logo{
   font-size: 1.2em;
@@ -199,6 +204,22 @@ body {
     cursor: pointer;
     font-size: 1.2em;
     color: #fff;
+  }
+  .intro-container h1{
+    font-size: 2em;
+  }
+  .intro-container h3{
+    font-size: 1.3em;
+  }
+  .intro-cocktailPresentation h1{
+  font-size: 2em;
+  }
+  .card h3 {
+    font-size: 1.5em;
+  
+  }
+  .card p{
+    font-size: 1.3em;
   }
 
 }
